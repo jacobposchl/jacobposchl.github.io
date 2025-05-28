@@ -102,13 +102,6 @@ values:
   extra_css:
     - assets/css/custom.css
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
 # Navigation links in the top bar
 nav:
   - title: "Home"
