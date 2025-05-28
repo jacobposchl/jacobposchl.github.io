@@ -54,13 +54,12 @@
   display: none !important;
 }
 
-/* square off the avatar */
+/* 1) square avatar */
 .author__avatar img,
 .avatar__img {
   border-radius: 0 !important;
 }
-
-/* disable the <a> around the avatar so it's not clickable */
+/* 2) disable link around avatar */
 .author__avatar a {
   pointer-events: none;
   cursor: default;
