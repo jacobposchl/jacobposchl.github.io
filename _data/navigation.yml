@@ -5,7 +5,5 @@ main:
     url: /self-study/
   - title: "FormAI"
     url: /formai/
-  - title: "Updates"
-    url: /formai-updates/
   - title: "Resume"
     url: /assets/Resume.pdf   # or wherever your PDF lives
