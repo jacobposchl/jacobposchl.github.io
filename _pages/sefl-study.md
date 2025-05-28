@@ -12,7 +12,7 @@ This is where I post what I've learned for the week.
 
 ---
 
-### Week of April 14, 2025
+### Week of May 12, 2025
 **Data Types and Missing Values (Pandas)**  
 *Explored how Pandas categorizes data types and methods for handling nulls. Practiced `fillna`, `dropna`, and type-casting strategies. Documented a workflow for cleaning a messy real-world dataset, including performance considerations when converting large columns.*
 
@@ -30,7 +30,7 @@ This is where I post what I've learned for the week.
 
 ---
 
-### Week of April 7, 2025
+### Week of April 28, 2025
 **Build Classifier for Any Dataset (Titanic, MNIST)**  
 *Developed end-to-end pipelines: data cleaning, feature engineering, model training, and evaluation. Tuned hyperparameters with grid search and inspected model diagnostics. Documented differences between tabular (Titanic) and image (MNIST) workflows.*
 
@@ -48,7 +48,7 @@ This is where I post what I've learned for the week.
 
 ---
 
-### Week of March 31, 2025
+### Week of April 7, 2025
 **CNN for Image Classification (CIFAR-10)**  
 *Built a convolutional network in PyTorch: conv→ReLU→pool stacks followed by fully connected layers. Trained on CIFAR-10, tuned learning rates, and added batch normalization. Analyzed misclassifications via confusion matrices.*
 
