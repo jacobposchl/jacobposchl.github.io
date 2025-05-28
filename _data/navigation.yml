@@ -1,9 +1,12 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
+  - title: "Jacob Poschl"
+    url: "/" 
+    class: "nav-logo"       # we’ll use CSS to center this and disable clicks
+  - title: "Research"
+    url: /research/
+  - title: "Entrepreneurship"
+    url: /formai/
   - title: "About"
     url: /about/
