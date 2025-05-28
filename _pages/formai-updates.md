@@ -1,19 +1,16 @@
 ---
-title: "Updates"
+title: "FormAI Progress Blog"
 permalink: /formai-updates/
 layout: single
 ---
 
-# FormAI Progress Blog
-
 ### Week of May 28, 2025
-- Added real-time thumb gesture feedback  
-- Experimented with LSTM for temporal classification  
+- Updated shot motion detection logic
+- Improved overall scalibility
 
 **What’s Next:**
-- Integrate YOLO ball-tracking  
-- Collect 30 pro-player videos  
+- Collect ~1000 basketball shots for training
+- Analyze model performance on new data
 
-> “Biggest challenge this week was syncing video frames under latency.”  
+> “Biggest challenge this week was ensuring mobile app properly assigned gesture times to pub/sub payload.”  
 
-*(Continue journaling each week.)*
