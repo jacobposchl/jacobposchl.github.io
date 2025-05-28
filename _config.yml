@@ -108,9 +108,14 @@ defaults:
 # now your custom top-bar navigation
 header:
   nav:
-    - title: Research
-      url: /research/
-    - title: Entrepreneurship
-      url: /formai/
-    - title: About
-      url: /about/
+  - title: Home
+    url: /
+  - title: "Jacob Poschl"
+    url: "/"
+    class: "nav-logo"      # a dummy, non-clickable “logo” item
+  - title: Research
+    url: /research/
+  - title: Entrepreneurship
+    url: /formai/
+  - title: About
+    url: /about/
