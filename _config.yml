@@ -103,3 +103,16 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Navigation links in the top bar
+nav:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "FormAI"
+    url: /formai/
+  - title: "Notebooks"
+    url: /notebooks/
+  - title: "Updates"
+    url: /updates/
