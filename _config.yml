@@ -96,6 +96,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+    - scope:
+  path: ""         # applies to your whole site
+values:
+  extra_css:
+    - assets/css/custom.css
 
 category_archive:
   type: liquid
