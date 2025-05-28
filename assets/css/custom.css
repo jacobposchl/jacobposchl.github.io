@@ -2,3 +2,9 @@
 .avatar__img {
   border-radius: 0 !important;
 }
+/* assets/css/custom.css */
+.splash {
+  min-height: 100vh !important;    /* fill the whole viewport */
+  background-size: cover;           /* ensure the image scales */
+  background-position: center;      /* center the important part */
+}
