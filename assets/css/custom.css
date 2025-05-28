@@ -45,3 +45,13 @@
   justify-content: center !important;
 }
 
+.site-nav {
+  justify-content: center !important;
+}
+
+/* hide any leftover logo/title in upper-left */
+.site-header__logo {
+  display: none !important;
+}
+
+
