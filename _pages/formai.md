@@ -4,7 +4,7 @@ permalink: /formai/
 layout: single
 ---
 
-##The Next Wave of Human Performance
+**The Next Wave of Human Performance**
 
 **Mission**  
 Empower athletes with data-driven form analytics.
