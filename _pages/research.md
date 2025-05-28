@@ -2,10 +2,14 @@
 title: "Research"
 permalink: /research/
 layout: single
-author_profile: true
 ---
 
-This section documents my current research project:  
-A hybrid AI architecture inspired by Jung's psychology and Friston's Free Energy Principle.
+# Designing Hybrid AI Systems: A Roadmap
 
-<!-- Add summaries or links to deep dives here -->
+*Write a one-paragraph summary of the problem you're tackling, your big questions, and planned models.*  
+
+_I plan to start formal implementation in July 2025._
+
+Links & scratchpads:  
+- [Colab sketchbook](https://colab.research.google.com/…)  
+- [Notes on Jung+Friston](…)
