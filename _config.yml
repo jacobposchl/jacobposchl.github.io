@@ -57,10 +57,18 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jacob Poschl"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "UC Santa Cruz, B.S. Computer Science"
+  name: "Jacob Poschl"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: |
+    UC Santa Cruz
+    B.S. Computer Science
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jacobposchl/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jake.poschl@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jacobposchl"
