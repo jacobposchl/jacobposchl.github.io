@@ -6,12 +6,28 @@ layout: single
 
 # FormAI: Real-Time Biomechanical Feedback
 
-**Mission:** Empower athletes with live form analytics  
-**Problem:** Lack of scalable, accurate posture feedback in sports  
-**Differentiator:** Hybrid AI (MediaPipe + LSTM + symbolic checks) + biomechanics  
+**Mission**  
+Empower athletes with instantaneous, data-driven form analytics.
 
-![Architecture diagram](/assets/images/formai-arch.png)
+**Problem**  
+Most coaching tools rely on subjective observation; there’s no scalable way to deliver precise, real-time feedback on posture and movement.
 
-[View provisional patent (PDF)](/assets/Provisional_Patent.pdf)
+**Solution & Differentiator**  
+- **Hybrid AI Pipeline** – Combines state of the art pose estimation, temporal phase classification, and symbolic biomechanical rules for final validation.  
+- **Biomechanical Insights** – Kinematic keypoints drive actionable suggestions (e.g., “Raise elbow 5°”). 
 
-[See project updates →](/formai-updates/)
+## System Architecture
+
+Snippet of real-time analysis of athlete form.
+![Architecture diagram](/assets/images/formai-arch.png){: .center-image }
+
+## Resources
+
+- [Provisional Patent (PDF)](/assets/Provisional_Patent.pdf){: target="_blank" }  
+- [See Project Updates](/formai-updates/){: .btn .btn--primary .btn--large .mt-4 }
+
+## Next Steps
+
+1. Publish research paper on findings
+2. Expand team
+3. Expand dataset with demo app release
