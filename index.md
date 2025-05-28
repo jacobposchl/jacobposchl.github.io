@@ -8,9 +8,10 @@ comments: false
 share: false
 ---
 
-Hello! I’m **Jacob Poschl** — a second-year AI/ML researcher at UC Santa Cruz and founder of FormAI.
+I’m Jacob Poschl, a computer science student at UC Santa Cruz and founder of FormAI.
 
-I build hybrid AI systems inspired by Jungian psychology & Friston’s Free Energy Principle, and I’m on a mission to bring real-time biomechanical feedback to athletes.
+My work bridges AI, neuroscience, and biomechanics, from hybrid cognitive architectures to real-time motion feedback for athletes.
+I use this space to track my startup progress, research notes, and technical experiments.
 
 ---
 
