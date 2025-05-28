@@ -105,20 +105,12 @@ defaults:
       extra_css:
         - assets/css/custom.css
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
 # now your custom top-bar navigation
-nav:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research/
-  - title: Entrepreneurship
-    url: /formai/         # or /entrepreneurship/ if you rename that page
-  - title: About
-    url: /about/
+header:
+  nav:
+    - title: Research
+      url: /research/
+    - title: Entrepreneurship
+      url: /formai/
+    - title: About
+      url: /about/
