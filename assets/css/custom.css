@@ -39,3 +39,9 @@
   padding: 1.5rem 2.5rem;
   font-size: 1.3rem;
 }
+
+/* Center the main nav items horizontally */
+.site-nav {
+  justify-content: center !important;
+}
+
