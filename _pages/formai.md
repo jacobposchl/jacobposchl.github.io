@@ -4,13 +4,15 @@ permalink: /formai/
 layout: single
 ---
 
-# FormAI: Real-Time Biomechanical Feedback
+##The Next Wave of Human Performance
 
 **Mission**  
-Empower athletes with instantaneous, data-driven form analytics.
+Empower athletes with data-driven form analytics.
 
 **Problem**  
 Most coaching tools rely on subjective observation; there’s no scalable way to deliver precise, real-time feedback on posture and movement.
+
+We do this, while giving access to anyone with a mobile device.
 
 **Solution & Differentiator**  
 - **Hybrid AI Pipeline** – Combines state of the art pose estimation, temporal phase classification, and symbolic biomechanical rules for final validation.  
@@ -24,10 +26,11 @@ Snippet of real-time analysis of athlete form.
 ## Resources
 
 - [Provisional Patent (PDF)](/assets/Provisional_Patent.pdf){: target="_blank" }  
-- [See Project Updates](/formai-updates/){: .btn .btn--primary .btn--large .mt-4 }
+
+[See Project Updates](/formai-updates/){: .btn .btn--primary .btn--large .mt-4 }
 
 ## Next Steps
 
 1. Publish research paper on findings
-2. Expand team
+2. Team growth, email me if interested
 3. Expand dataset with demo app release
