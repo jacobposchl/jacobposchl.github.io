@@ -1,0 +1,4 @@
+.author__avatar img,
+.avatar__img {
+  border-radius: 0 !important;
+}
