@@ -1,9 +1,4 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Jacob Poschl"
-    url: "/" 
-    class: "nav-logo"       # we’ll use CSS to center this and disable clicks
   - title: "Research"
     url: /research/
   - title: "Entrepreneurship"
