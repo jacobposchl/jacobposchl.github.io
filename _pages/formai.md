@@ -21,7 +21,7 @@ We do this, while giving access to anyone with a mobile device.
 ## System Architecture
 
 Snippet of real-time analysis of athlete form.
-![Architecture diagram](/assets/images/formai-arch.png){: .center-image }
+![Architecture diagram](/assets/FormAIWebsiteSnippet.mp4){: .center-image }
 
 ## Resources
 
