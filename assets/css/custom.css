@@ -87,3 +87,15 @@ figure.author__avatar img,
   overflow: visible !important;
 }
 
+/* ----- fully rectangular avatar wrapper + image ----- */
+.author__avatar,
+.author__avatar a,
+.author__avatar img,
+.u-photo {
+  border-radius: 0 !important;      /* kill any corner rounding */
+  clip-path: none !important;       /* remove any SVG/clip masking */
+  -webkit-clip-path: none !important;
+  mask-image: none !important;      /* remove any mask-image rules */
+  -webkit-mask-image: none !important;
+  overflow: visible !important;     /* show the full rectangle */
+}
