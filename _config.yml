@@ -63,7 +63,7 @@ plugins:
 author:
   name: "Jacob Poschl"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "UC Santa Cruz B.S. Computer Science"
+  bio: "UC Santa Cruz<br>B.S. Computer Science"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
