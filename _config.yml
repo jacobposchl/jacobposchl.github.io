@@ -13,19 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 
 url: "https://jacobposchl.github.io"
 baseurl: "" 
 
-title: Home
+title: REMOVE
 email: jake.poschl@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: jacobposchl
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: neon
 search: true
+
+
+google_fonts: "Manrope:200,300,400,500,600,700,800"
+
 
 # Build settings
 markdown: kramdown
@@ -108,18 +116,8 @@ defaults:
       layout: single
       author_profile: true
 
-  # 3) include your custom CSS site-wide
-  - scope:
-      path: ""           # applies to every page
-    values:
-      extra_css:
-        - assets/css/custom.css
 header:
-  nav:
-    - title: Home
-      url: /
-    - title: Jacob Poschl
-      url: "/"           # dummy, non-clickable
+  nav:    # dummy, non-clickable
       class: "nav-logo"
     - title: Research
       url: /research/

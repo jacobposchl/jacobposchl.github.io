@@ -1,0 +1,214 @@
+---  
+---  
+// ────────────────────────────────────────────────
+// 1) **ZERO whitespace** (or BOM) before the front-matter.
+// 2) **All** your overrides must come *before* the @imports.
+// ────────────────────────────────────────────────
+
+// Override the theme’s font stacks to use Manrope everywhere
+$serif               : "Manrope", sans-serif;
+$sans-serif          : "Manrope", sans-serif;
+$monospace           : "Manrope", sans-serif;
+
+// Tell the theme to use those stacks for body text & headers
+$global-font-family  : $sans-serif;
+$header-font-family  : $sans-serif;
+
+// Bump the base paragraph size to ~18px (1.125 × 16px)
+$type-size-5         : 1.125em;
+
+// ────────────────────────────────────────────────
+// Now pull in your skin and the rest of Minimal Mistakes
+// ────────────────────────────────────────────────
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+
+body {
+  font-family: "Manrope", sans-serif !important;
+}
+
+h1, h2, .site-title, .site-desc {
+  font-family: "Manrope", serif !important;
+}
+
+.author__avatar::before {
+  content: none !important;
+}
+.author__avatar img,
+.avatar__img {
+  border-radius: 0 !important;
+}
+/* assets/css/custom.css */
+.splash {
+  min-height: 100vh !important;    /* fill the whole viewport */
+  background-size: cover;           /* ensure the image scales */
+  background-position: center;      /* center the important part */
+}
+
+/* assets/css/custom.css */
+
+/* 1) Make the primary nav a flex container */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* 2) Center the “logo” item by letting it grow */
+.site-nav__item.nav-logo {
+  flex: 1;
+  text-align: center;
+}
+
+/* 3) Disable clicks on that item */
+.site-nav__item.nav-logo .site-nav__link {
+  pointer-events: none;
+  cursor: default;
+  font-weight: bold;
+  color: inherit;
+}
+
+/* 4) Remove any extra default nav items (if needed) */
+/*    You shouldn’t have Posts/Categories/Tags anymore, so skip this. */
+
+/* 5) Bigger splash buttons (if not set already) */
+.splash-buttons .btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.3rem;
+}
+
+/* Center the main nav items horizontally */
+.site-nav {
+  justify-content: center !important;
+}
+
+.site-nav {
+  justify-content: center !important;
+}
+
+/* hide any leftover logo/title in upper-left */
+.site-header__logo {
+  display: none !important;
+}
+
+/* 1) square avatar */
+.author__avatar img,
+.avatar__img {
+  border-radius: 0 !important;
+}
+/* 2) disable link around avatar */
+.author__avatar a {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* make sure both the container and the img itself are un-rounded */
+/* ====== FORCE RECTANGULAR AVATAR ====== */
+
+/* remove any CSS mask or clip that could be rounding */
+figure.author__avatar,
+figure.author__avatar img,
+.author__avatar,
+.author__avatar img,
+.avatar__img,
+.avatar,
+.avatar img {
+  /* no rounding */
+  border-radius: 0 !important;
+  /* kill any masking/clip paths */
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  /* make sure overflow can show the full rect */
+  overflow: visible !important;
+}
+
+/* ----- fully rectangular avatar wrapper + image ----- */
+.author__avatar,
+.author__avatar a,
+.author__avatar img,
+.u-photo {
+  border-radius: 0 !important;      /* kill any corner rounding */
+  clip-path: none !important;       /* remove any SVG/clip masking */
+  -webkit-clip-path: none !important;
+  mask-image: none !important;      /* remove any mask-image rules */
+  -webkit-mask-image: none !important;
+  overflow: visible !important;     /* show the full rectangle */
+}
+
+/* ——— FORCE RECTANGLE ON AVATAR CONTAINER + ALL ITS CONTENT ——— */
+.h-card .author__avatar,
+.h-card .author__avatar * {
+  /* kill any corner rounding */
+  border-radius: 0 !important;
+  /* remove any clip-paths or masks */
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  /* turn off overflow hiding */
+  overflow: visible !important;
+}
+/* —— SITE-WIDE FONT OVERRIDES —— */
+
+/* Body copy, form elements, buttons, etc. */
+body,
+button, input, select, textarea,
+.prose, /* if you use the prose utility for rich text */
+.site-footer,
+.site-header, /* nav links, logo text */
+.page__title { /* optional: page titles */
+  font-family: "Open Sans", sans-serif !important;
+}
+
+/* Headings and navigation links */
+h1, h2, h3, h4, h5, h6,
+.site-nav__link,
+.site-header__logo a {
+  font-family: "Merriweather", serif !important;
+}
+
+/* Force rectangular avatars */
+.author__avatar,
+.author__avatar img {
+  border-radius: 0 !important;
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  mask-image: none !important;
+  overflow: visible !important;
+}
+
+.author__avatar::before {
+  content: none !important;
+}
+
+/* ——————————————— */
+/* Force Manrope on headings, nav links & author name */
+/* ——————————————— */
+
+$manrope-stack: "Manrope", system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji",
+                sans-serif !important;
+
+// Markdown headings (### etc)
+h1, h2, h3, h4, h5, h6 {
+  font-family: $manrope-stack;
+}
+
+// “Home” and all nav items (Minimal Mistakes uses BEM: __link)
+.site-nav__link {
+  font-family: $manrope-stack;
+}
+
+// The big author name on the homepage
+.author-name {
+  font-family: $manrope-stack;
+}
+
+/* ─────────────────────────────────────
+   Hide the “site title” link (top‐left “Home”)
+   ───────────────────────────────────── */
+.site-title {
+  display: none !important;
+}
