@@ -66,14 +66,24 @@
 }
 
 /* make sure both the container and the img itself are un-rounded */
-figure.author__avatar,
-.author__avatar,
-.author__avatar a,
-.author__avatar img,
-.avatar__img {
-  border-radius: 0 !important;
-  overflow: visible !important;
-  clip-path: none !important;
-}
+/* ====== FORCE RECTANGULAR AVATAR ====== */
 
+/* remove any CSS mask or clip that could be rounding */
+figure.author__avatar,
+figure.author__avatar img,
+.author__avatar,
+.author__avatar img,
+.avatar__img,
+.avatar,
+.avatar img {
+  /* no rounding */
+  border-radius: 0 !important;
+  /* kill any masking/clip paths */
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  /* make sure overflow can show the full rect */
+  overflow: visible !important;
+}
 
