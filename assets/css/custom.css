@@ -99,3 +99,17 @@ figure.author__avatar img,
   -webkit-mask-image: none !important;
   overflow: visible !important;     /* show the full rectangle */
 }
+
+/* ——— FORCE RECTANGLE ON AVATAR CONTAINER + ALL ITS CONTENT ——— */
+.h-card .author__avatar,
+.h-card .author__avatar * {
+  /* kill any corner rounding */
+  border-radius: 0 !important;
+  /* remove any clip-paths or masks */
+  clip-path: none !important;
+  -webkit-clip-path: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  /* turn off overflow hiding */
+  overflow: visible !important;
+}
