@@ -65,3 +65,15 @@
   cursor: default;
 }
 
+/* make sure both the container and the img itself are un-rounded */
+figure.author__avatar,
+.author__avatar,
+.author__avatar a,
+.author__avatar img,
+.avatar__img {
+  border-radius: 0 !important;
+  overflow: visible !important;
+  clip-path: none !important;
+}
+
+
