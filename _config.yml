@@ -117,8 +117,8 @@ defaults:
       author_profile: true
 
 header:
-  nav:    # dummy, non-clickable
-      class: "nav-logo"
+  nav:
+    - class: "nav-logo"
     - title: Research
       url: /research/
     - title: Entrepreneurship
