@@ -1,5 +1,5 @@
 ---
-title: "Self-Study"
+title: "SELF STUDY"
 permalink: /self-study/
 layout: single
 ---

@@ -1,5 +1,5 @@
 ---
-title: "FormAI"
+title: "FORMAI"
 permalink: /formai/
 layout: single
 ---
@@ -25,11 +25,11 @@ We deliver a personalized, better-than-human coaching system powered entirely by
 
 ## System Architecture
 
-Snippet of real-time analysis of athlete form.
-![Architecture diagram](/assets/FormAIWebsiteSnippet.mp4){: .center-image }
+Snippet of real-time analysis of athlete form:
+<div style="width: 50%; margin: 0 auto;">
+  <img src="/assets/FormAIWebsiteSnippet.gif" alt="Real-time analysis of athlete form" style="width: 100%;">
+</div>
 
 ## Resources
 
-- [Provisional Patent (PDF)](/assets/Provisional_Patent.pdf){: target="_blank" }  
-
-[See Project Updates](/formai-updates/){: .btn .btn--primary .btn--large .mt-4 }
+- [Provisional Patent (PDF)](/assets/Provisional_Patent.pdf){: target="_blank" }
