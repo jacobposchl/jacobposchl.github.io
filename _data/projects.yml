@@ -1,13 +1,17 @@
 current:
+  - title: Cross-subject representation learning
+    category: NerDS Lab · Self-supervised learning
+    description: Evaluating cross-subject generalization and zero-shot transfer across 142 imaging sessions from six animals, testing whether learned representations preserve biological identity in unseen subjects.
+  - title: Zero-shot behavior decoding
+    category: NerDS Lab · Neural decoding
+    description: Extending ZEN to large-scale electrophysiology data and learning shared representations across subjects and recording conditions. Matched a supervised fine-tuning baseline on running-speed decoding using 75% fewer target-subject trials.
+  - title: Representation dynamics
+    category: NerDS Lab · Neural representations
+    description: Studying how learned representations change over time and across behavioral states, sessions, and subjects, using optimal transport to align embedding spaces and evaluate cross-session generalization.
+
+selected:
   - title: FormAI
     category: Computer vision · Biomechanics
     description: Phone-based athletic form analysis combining pose estimation, temporal phase classification, and biomechanical rules to deliver personalized motion feedback.
-    url: /formai/
     related_title: Computational biomechanics
     related_url: /research/computational-biomechanics/
-
-selected:
-  # Copy this entry to add a project. Add a `url` field when it has a detail page.
-  - title: CIFAR-10 image classifier
-    category: PyTorch · Computer vision
-    description: A convolutional network with batch normalization, tuned learning rates, and confusion-matrix analysis of misclassifications.

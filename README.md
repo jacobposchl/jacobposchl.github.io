@@ -17,6 +17,7 @@ _pages/
 _data/
   navigation.yml                  Main navigation tabs
   projects.yml                    Current and selected project listings
+  publications.yml                Paper titles, authors, venues, and status
 _layouts/
   base.html                       Shared page shell, navigation, and footer
   home.html                       Home page layout
@@ -45,10 +46,12 @@ without changing its public URL.
 - **Home introduction:** edit `index.md`.
 - **Profile name, photo, or contact links:** edit `_config.yml`.
 - **Research listings:** edit `_data/projects.yml`. Use `current` for ongoing work
-  and `selected` for other projects. The remaining CIFAR-10 entry is a template
-  you can copy or replace. Add a `url` field when a project has a detail page;
+  and `selected` for previous projects. Add a `url` field when a project has a detail page;
   otherwise its title is displayed without a link. Detailed pages live in
   `_pages/research/`.
+- **Publications:** edit `_data/publications.yml`. Keep each paper’s title,
+  authors, venue, year, and publication status aligned with your resume; add a
+  `url` when a public paper link is available.
 - **Resume:** replace `assets/documents/resume.pdf`.
 - **Personal page:** edit `_pages/personal.html`; its photo lives in
   `assets/images/personal/penny.jpeg`.
