@@ -10,7 +10,6 @@ comments: false
 share: false
 ---
 
-I'm Jacob Poschl, a 3rd year CS major at UC Santa Cruz and founder of FormAI.
+I'm Jacob Poschl, recent comp-sci graduate from UC Santa Cruz, currently working at the NerDS Lab at UPenn with Professor Eva Dyer. 
 
-My interests bridge AI, neuroscience, and biomechanics. Currently I'm working on hybrid cognitive architectures to real-time motion feedback for athletes.
-I use this space to track my startup progress, research notes, and technical experiments.
+I'm interested in all things related to the discovery of truth! I'm always learning from others and from the research I'm lucky to be apart of. This website lays out some of the work I've been doing recently. Feel free to reach out to me if you'd like to discuss!

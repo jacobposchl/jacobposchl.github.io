@@ -1,5 +1,5 @@
 ---
-layout: retro
+layout: base
 ---
 <div class="research-page">
   <header class="section-heading">
@@ -8,7 +8,8 @@ layout: retro
   </header>
 
   <section aria-labelledby="current-heading" class="research-section">
-    <div class="section-label"><h2 id="current-heading">Currently working on</h2><span class="section-count">{{ site.data.projects.current | size }} projects</span></div>
+    {% assign current_count = site.data.projects.current | size %}
+    <div class="section-label"><h2 id="current-heading">Currently working on</h2><span class="section-count">{{ current_count }} project{% if current_count != 1 %}s{% endif %}</span></div>
     <div class="current-projects">
       {% for project in site.data.projects.current %}
         <article class="current-project">
@@ -25,19 +26,19 @@ layout: retro
   </section>
 
   <section aria-labelledby="selected-heading" class="research-section">
-    <div class="section-label"><h2 id="selected-heading">Selected projects</h2><span class="section-count">{{ site.data.projects.selected | size }} projects</span></div>
+    {% assign selected_count = site.data.projects.selected | size %}
+    <div class="section-label"><h2 id="selected-heading">Selected projects</h2><span class="section-count">{{ selected_count }} project{% if selected_count != 1 %}s{% endif %}</span></div>
     <ol class="project-list">
       {% for project in site.data.projects.selected %}
         <li class="project-row">
           <span class="project-number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
           <div class="project-row-content">
-            <h3><a href="{{ project.url | relative_url }}">{{ project.title }} <span aria-hidden="true">↗</span></a></h3>
+            <h3>{% if project.url and project.url != '' %}<a href="{{ project.url | relative_url }}">{{ project.title }} <span aria-hidden="true">↗</span></a>{% else %}{{ project.title }}{% endif %}</h3>
             <p>{{ project.description }}</p>
             <span class="project-category">{{ project.category }}</span>
           </div>
         </li>
       {% endfor %}
     </ol>
-    <a class="notes-link" href="{{ '/self-study/' | relative_url }}">All study notes <span aria-hidden="true">→</span></a>
   </section>
 </div>

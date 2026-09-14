@@ -1,7 +1,7 @@
 ---
 title: "FORMAI"
 permalink: /formai/
-layout: single
+layout: article
 ---
 
 **The Next Wave of Human Performance**
@@ -27,9 +27,9 @@ We deliver a personalized, better-than-human coaching system powered entirely by
 
 Snippet of real-time analysis of athlete form:
 <figure class="project-demo">
-  <img src="{{ '/assets/FormAIWebsiteSnippet.gif' | relative_url }}" alt="Real-time analysis of athlete form" loading="lazy">
+  <img src="{{ '/assets/images/projects/formai/motion-analysis.gif' | relative_url }}" alt="Real-time analysis of athlete form" loading="lazy">
 </figure>
 
 ## Resources
 
-- [Provisional Patent (PDF)](/assets/Provisional_Patent.pdf){: target="_blank" }
+- [Provisional Patent (PDF)](/assets/documents/formai/provisional-patent.pdf){: target="_blank" }

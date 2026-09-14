@@ -1,7 +1,7 @@
 ---
 title: "Computational Biomechanics"
 permalink: /research/computational-biomechanics/
-layout: single
+layout: article
 ---
 
 

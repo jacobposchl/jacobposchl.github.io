@@ -2,7 +2,7 @@
 title: Jacob Poschl
 email: jake.poschl@gmail.com
 description: >-
-  Jacob Poschl Research and Startup Portfolio. AI Researcher and Entrepreneur.
+  Jacob Poschl Research Portfolio.
 url: "https://jacobposchl.github.io"
 baseurl: ""
 github_username: jacobposchl
@@ -10,12 +10,13 @@ github_username: jacobposchl
 markdown: kramdown
 theme: null
 sass:
-  sass_dir: assets/css
+  sass_dir: assets/styles
   style: compressed
 
 include:
   - _pages
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
@@ -27,8 +28,8 @@ plugins:
 
 author:
   name: "Jacob Poschl"
-  avatar: "/assets/images/grad_photo.jpeg"
-  bio: "UC Santa Cruz<br>B.S. Computer Science"
+  avatar: "/assets/images/profile/graduation.jpeg"
+  bio: "NerDS Lab @ UPenn<br>B.S. Computer Science @ UCSC"
   links:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/jacobposchl/"
@@ -42,4 +43,4 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: article
