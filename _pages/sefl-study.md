@@ -31,6 +31,7 @@ This is where I post what I've learned for the week.
 ---
 
 ### Week of April 28, 2025
+<span id="classification"></span>
 **Build Classifier for Any Dataset (Titanic, MNIST)**  
 *Developed end-to-end pipelines: data cleaning, feature engineering, model training, and evaluation. Tuned hyperparameters with grid search and inspected model diagnostics. Documented differences between tabular (Titanic) and image (MNIST) workflows.*
 
@@ -49,15 +50,18 @@ This is where I post what I've learned for the week.
 ---
 
 ### Week of April 7, 2025
+<span id="cifar10"></span>
 **CNN for Image Classification (CIFAR-10)**  
 *Built a convolutional network in PyTorch: conv→ReLU→pool stacks followed by fully connected layers. Trained on CIFAR-10, tuned learning rates, and added batch normalization. Analyzed misclassifications via confusion matrices.*
 
+<span id="clustering"></span>
 **Unsupervised Learning Project**  
 *Completed a mini-project combining PCA and KMeans on handwritten digit data. Visualized clusters in reduced dimensions and measured cluster purity against labels.*
 
 **KMeans & PCA**  
 *Studied the math behind PCA eigen decomposition and KMeans cluster centroids. Ran experiments varying `n_components` and `k`, then plotted explained variance to choose optimal dimensionality.*
 
+<span id="mlp"></span>
 **MLP Classifier (MNIST)**  
 *Trained a multilayer perceptron on MNIST with one hidden layer. Added dropout and tested different optimizers. Tracked train/validation loss curves to diagnose overfitting.*
 
@@ -76,8 +80,10 @@ This is where I post what I've learned for the week.
 **Intermediate ML (Kaggle)**  
 *Worked through Kaggle tutorials on Titanic and Housing. Focused on feature engineering, cross-validation, and stacking models. Documented pipeline design for reproducible competitions.*
 
+<span id="gan"></span>
 **GAN (MNIST Digit Generator)**  
 *Built a basic Generative Adversarial Network in PyTorch. Trained on MNIST, watched generator and discriminator loss interplay, and saved epoch-wise image grids to track generation quality.*
 
+<span id="lstm"></span>
 **LSTM for Sequence Data**  
 *Implemented a unidirectional LSTM for synthetic sequence classification. Visualized hidden and cell states over time and compared sequence-to-one vs. sequence-to-sequence setups.*

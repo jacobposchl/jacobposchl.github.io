@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <meta name="theme-color" content="#e5e5e1">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="desktop">
+      <header class="site-header">
+        <a class="identity" href="{{ '/' | relative_url }}" aria-label="Jacob Poschl — Home">
+          <span class="monogram" aria-hidden="true">JP</span>
+          <span class="identity-name">Jacob Poschl<span class="identity-caption">Computer Science · UC Santa Cruz</span></span>
+        </a>
+        <span class="header-note">Personal website</span>
+      </header>
+      {% assign current_tab = page.nav | default: 'Research' %}
+      <nav class="site-tabs" aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}
+          <a href="{{ item.url | relative_url }}"{% if current_tab == item.title %} class="is-current" aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+      <main id="main" class="window{% if page.nav == 'Resume' %} window--resume{% endif %}" tabindex="-1">
+        <div class="window-titlebar" aria-hidden="true"><span>{{ page.window_title | default: page.title }}</span></div>
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <span>© {{ 'now' | date: '%Y' }} Jacob Poschl</span>
+        <a href="mailto:{{ site.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+      </footer>
+    </div>
+  </body>
+</html>

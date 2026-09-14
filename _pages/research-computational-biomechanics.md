@@ -4,7 +4,6 @@ permalink: /research/computational-biomechanics/
 layout: single
 ---
 
-# Computational Biomechanics Research
 
 My computational biomechanics research focuses on understanding human movement patterns and developing AI systems that can analyze and provide feedback on athletic performance.
 

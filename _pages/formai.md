@@ -26,9 +26,9 @@ We deliver a personalized, better-than-human coaching system powered entirely by
 ## System Architecture
 
 Snippet of real-time analysis of athlete form:
-<div style="width: 50%; margin: 0 auto;">
-  <img src="/assets/FormAIWebsiteSnippet.gif" alt="Real-time analysis of athlete form" style="width: 100%;">
-</div>
+<figure class="project-demo">
+  <img src="{{ '/assets/FormAIWebsiteSnippet.gif' | relative_url }}" alt="Real-time analysis of athlete form" loading="lazy">
+</figure>
 
 ## Resources
 

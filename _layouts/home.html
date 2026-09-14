@@ -1,0 +1,23 @@
+---
+layout: retro
+---
+<div class="home-layout">
+  <aside class="profile" aria-label="About Jacob">
+    <div class="portrait-frame">
+      <img class="portrait" src="{{ site.author.avatar | relative_url }}" alt="Jacob Poschl in graduation regalia" width="600" height="600">
+    </div>
+    <h2 class="profile-name">Jacob Poschl</h2>
+    <p class="profile-bio">{{ site.author.bio }}</p>
+    <ul class="profile-links">
+      {% for link in site.author.links %}
+        <li><a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  <section class="home-intro" aria-labelledby="home-title">
+    <p class="eyebrow">AI / Neuroscience / Biomechanics</p>
+    <h1 id="home-title">Welcome,</h1>
+    <div class="home-copy">{{ content }}</div>
+    <a class="button" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+  </section>
+</div>

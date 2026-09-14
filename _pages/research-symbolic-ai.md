@@ -4,7 +4,6 @@ permalink: /research/symbolic-ai/
 layout: single
 ---
 
-# Symbolic AI Research
 
 This research explores a hybrid AI architecture inspired by Carl Jung's model of the psyche and Karl Friston's free energy principle. The system is structured into three interdependent components:
 

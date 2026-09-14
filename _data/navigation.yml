@@ -3,9 +3,7 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "Self-Study"
-    url: /self-study/
-  - title: "FormAI"
-    url: /formai/
   - title: "Resume"
-    url: /assets/Resume.pdf   # or wherever your PDF lives
+    url: /resume/
+  - title: "Personal"
+    url: /personal/

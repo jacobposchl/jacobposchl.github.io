@@ -4,7 +4,6 @@ permalink: /research/ai-architectures/
 layout: single
 ---
 
-# AI Architectures Research
 
 My work on AI architectures focuses on developing computational models that mimic human cognitive processes and can be applied to create more intuitive and human-like AI systems.
 

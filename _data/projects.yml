@@ -1,0 +1,39 @@
+current:
+  - title: FormAI
+    category: Computer vision · Biomechanics
+    description: Phone-based athletic form analysis combining pose estimation, temporal phase classification, and biomechanical rules to deliver personalized motion feedback.
+    url: /formai/
+    related_title: Computational biomechanics
+    related_url: /research/computational-biomechanics/
+  - title: Hybrid cognitive architectures
+    category: Symbolic AI · Cognition
+    description: A three-layer model of conscious, subconscious, and archetypal processing, exploring how symbolic constraints and statistical learning can work together.
+    url: /research/symbolic-ai/
+    related_title: AI architectures
+    related_url: /research/ai-architectures/
+
+selected:
+  - title: CIFAR-10 image classifier
+    category: PyTorch · Computer vision
+    description: A convolutional network with batch normalization, tuned learning rates, and confusion-matrix analysis of misclassifications.
+    url: /self-study/#cifar10
+  - title: MNIST digit generator
+    category: PyTorch · Generative models
+    description: A generative adversarial network trained on handwritten digits, with image grids tracking how the generated samples evolve.
+    url: /self-study/#gan
+  - title: Handwritten-digit clustering
+    category: PCA · KMeans
+    description: An unsupervised learning project using dimensionality reduction and clustering to explore handwritten-digit data and measure cluster purity.
+    url: /self-study/#clustering
+  - title: MNIST neural classifier
+    category: Neural networks · Classification
+    description: A multilayer perceptron with dropout and optimizer comparisons, using training and validation curves to investigate overfitting.
+    url: /self-study/#mlp
+  - title: Sequence classification with LSTMs
+    category: PyTorch · Sequence modeling
+    description: A recurrent model for synthetic sequences, comparing sequence-to-one and sequence-to-sequence approaches and visualizing hidden states.
+    url: /self-study/#lstm
+  - title: End-to-end classification pipelines
+    category: Machine learning · Model evaluation
+    description: Titanic and MNIST experiments covering data preparation, feature engineering, grid search, and evaluation across tabular and image datasets.
+    url: /self-study/#classification
